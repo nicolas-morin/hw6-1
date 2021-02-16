@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movies</title>
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
+</head>
+<body class="bg-gray-800">
+  
+  <div class="movies p-16 md:flex md:flex-wrap">
+    <!-- JavaScript puts stuff here -->
+  </div>
+
+  <!-- Put the Firebase config here -->
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-firestore.js"></script>
+<!-- ADD firestore library -->
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBA5Xy6ZKVZB3FIW2VxavlxCHIcESZpMM8",
+    authDomain: "hw6-nm.firebaseapp.com",
+    projectId: "hw6-nm",
+    storageBucket: "hw6-nm.appspot.com",
+    messagingSenderId: "7418702327",
+    appId: "1:7418702327:web:3c5575ff4c70b28ba2a6f2"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+
+</script>
+  <script src="movies.js"></script>
+</body>
+</html>
